@@ -55,6 +55,33 @@ This command will execute the sample test cases in example component(example_spe
     ```
     protractor conf.js
     ```
+## learning jasmine functions
+
+### common syntax for jasmine to test test cases
+
+```
+describe("A suite", function() {
+  it("contains spec with an expectation", function() {
+    expect(true).toBe(true);
+  });
+});
+```
+
+    - descibe block is a test suite which is like collection of test cases.
+    - it block is a individual test case.
+    - expect and toBe are matches, tests the expected and actual results.
+
+-  one describe can have multipe it blocks.
+
+        browser.get()
+        browser.getCurrentUrl()
+        browser.getTitle()
+        browser.sleep();
+        browser.manage().window().maximize();
+
+These are some of the selenium web-driver elemements for browser actions.
+
+
 
 
 

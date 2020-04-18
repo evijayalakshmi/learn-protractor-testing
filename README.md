@@ -148,3 +148,9 @@ SpecFile (.js)
 - Double Click
 - Right Click
 - Drag and Drop
+
+### Pagr Object Model
+
+Writing web elements and methods in a page and re-use the page for other test cases.
+And,
+Writing test methods seeparately, Which means separating web elements and test methods.
